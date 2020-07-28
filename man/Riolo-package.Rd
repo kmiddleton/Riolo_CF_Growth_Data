@@ -6,9 +6,11 @@
 \alias{Riolo}
 \title{Data sets from Riolo et al. (1974)}
 \description{
-The \code{abd} package contains data sets and sample code for the book,
-\emph{The Analysis of Biological Data} by Michael C. Whitlock and Dolph
-Schluter (2009; Roberts and Company Publishers).
+The \code{Riolo} package contains data sets from Riolo ML, Moyers RE,
+  McNamara JA, Hunter WS. 1974. An atlas of
+  craniofacial growth: cephalometric standards from the University School
+  Growth Study, the University of Michigan. Craniofacial Growth Series
+  Monograph 2.
 }
 \details{
 \tabular{ll}{ Package: \tab Riolo\cr
