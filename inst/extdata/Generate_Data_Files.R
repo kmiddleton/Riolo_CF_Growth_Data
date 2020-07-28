@@ -29,7 +29,7 @@ for (v in unique(M$Variable_Num)) {
   write_lines(paste0("#' "), fileConn, append = TRUE)
   write_lines(paste0("#' @name ", d$Rda_Name[1]), fileConn, append = TRUE)
   write_lines(paste0("#' @docType data"), fileConn, append = TRUE)
-  write_lines(paste0("#' @format A data.frame with 32 observations ",
+  write_lines(paste0("#' @format A data.frame with 22 observations ",
                      "of the following 10 variables: \\describe{"),
               fileConn, append = TRUE)
   write_lines(paste0("#'   \\item{Variable_Num}{Variable number of Riolo}"),

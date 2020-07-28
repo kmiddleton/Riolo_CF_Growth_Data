@@ -5,7 +5,7 @@
 \alias{CO_GN}
 \title{Condylion-Gnathion}
 \format{
-A data.frame with 32 observations of the following 10 variables: \describe{
+A data.frame with 22 observations of the following 10 variables: \describe{
   \item{Variable_Num}{Variable number of Riolo}
   \item{Type}{Variable type (Angular or Linear)}
   \item{Long_Name}{Descriptive variable name}
