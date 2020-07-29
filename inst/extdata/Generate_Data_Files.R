@@ -30,7 +30,7 @@ for (v in unique(M$Variable_Num)) {
   write_lines(paste0("#' @name ", d$Rda_Name[1]), fileConn, append = TRUE)
   write_lines(paste0("#' @docType data"), fileConn, append = TRUE)
   write_lines(paste0("#' @format A data.frame with 22 observations ",
-                     "of the following 10 variables: \\describe{"),
+                     "of the following 11 variables: \\describe{"),
               fileConn, append = TRUE)
   write_lines(paste0("#'   \\item{Variable_Num}{Variable number of Riolo}"),
               fileConn, append = TRUE)
@@ -41,6 +41,8 @@ for (v in unique(M$Variable_Num)) {
   write_lines(paste0("#'   \\item{Short_Name}{Abbreviated variable name}"),
               fileConn, append = TRUE)
   write_lines(paste0("#'   \\item{Numeric_Name}{Numeric landmark coding}"),
+              fileConn, append = TRUE)
+  write_lines(paste0("#'   \\item{CGCS_Name}{CGCS variable coding}"),
               fileConn, append = TRUE)
   write_lines(paste0("#'   \\item{Age}{Age in years}"), fileConn,
               append = TRUE)
