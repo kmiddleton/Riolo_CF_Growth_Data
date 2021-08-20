@@ -24,5 +24,9 @@
 #'   Monograph 2.
 #' @keywords package
 #'
-#'
+#' @importFrom magrittr %>%
 NULL
+
+# Global variables
+utils::globalVariables(c(".", "Short_Name", "CGCS_Name",
+                         "Mean", "SD", "Sex"))

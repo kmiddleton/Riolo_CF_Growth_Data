@@ -11,8 +11,8 @@ get_Riolo_data(Riolo_var, sex, rescale = FALSE)
 
 \item{sex}{string for sex}
 
-\item{rescale}{Boolean for whether to rescale data using Michigan scaling
-factor}
+\item{rescale}{Boolean for whether to rescale data using Michigan
+enlargement factor}
 }
 \value{
 data.frame with Riolo data
