@@ -18,7 +18,9 @@ M %>%
   group_map(.f = write_data)
 
 for (v in unique(M$Variable_Num)) {
-  d <- M %>% filter(Variable_Num == v)
+  d <- M %>%
+    dplyr::filter(Variable_Num == v)
+
   fileConn <- paste0("../../R/", d$Short_Name[1], ".R")
   write_lines(paste0("#' ", d$Long_Name[1]), fileConn)
   write_lines(paste0("#' "), fileConn, append = TRUE)
